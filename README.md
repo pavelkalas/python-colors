@@ -1,6 +1,8 @@
-# INFO
-Print colors in python using ANSI escape codes
+# Info
+- One of the methods to print colors in python
+- It uses ANSI escape codes
 
+# Colors
 ## Formats
 ```
 reset = "\033[0m"
@@ -41,4 +43,12 @@ bg_blue = "\033[44m"
 bg_purple = "\033[45m"
 bg_cyan = "\033[46m"
 bg_lightgrey = "\033[47m"
+```
+
+# Example
+```
+green = "\033[32m"
+reset = "\033[0m"
+
+print(green + "Hello, world!" + reset)
 ```
