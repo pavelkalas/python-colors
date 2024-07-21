@@ -2,6 +2,8 @@
 
 1. Import colors.py to your project.
 
+2. Use it like code below:
+
 ```
 print(GREEN + "Hello, world!" + RESET)
 ```
